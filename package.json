@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node ./",
     "fun": "node functions",
-    "cont": "node continue.js"
+    "cont": "node continue.js",
+    "fs": "node fs",
+    "path":"node path"
   },
   "keywords": [],
   "author": "",
