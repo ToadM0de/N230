@@ -22,3 +22,7 @@ if(!fs.existsSync(dataPath)) {
 fs.writeFileSync(path.join(dataPath, "user.json"), "{}");
 
 fs.writeFileSync(path.join(dataPath, ".gitignore"), "# Ignore files and directories in this folder");
+
+fs.appendFileSync(path.join(dataPath, ".gitignore"), `
+
+node_modules`);

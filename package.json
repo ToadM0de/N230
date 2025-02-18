@@ -1,13 +1,22 @@
 {
   "name": "n230",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "bin":{
+    "create-tyapp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "templates/",
+    "readme.md"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "node ./",
     "fun": "node functions",
     "cont": "node continue.js",
     "fs": "node fs",
-    "path":"node path"
+    "path":"node path",
+    "test": "set TEST=1 && node ./"
   },
   "keywords": [],
   "author": "",
