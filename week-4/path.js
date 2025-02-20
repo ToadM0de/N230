@@ -1,11 +1,11 @@
 const path = require("path");
 
-console.log("frog path:", path.resolve("frog"));
+console.log("Frog Path:", path.resolve("frog"));
 
-const functionsFolder = path.resolve("functions, cow");
+const functionsFolder = path.resolve("functions", "cow");
 
-console.log( "functions index.js:", path.join(functionsFolder, "index.js"));
+console.log("Functions index.js:", path.join(functionsFolder, "index.js"));
 
-console.log( "functions functions:", path.join(functionFoloder, "functions"));
+console.log("Functions functions:", path.join(functionsFolder, "functions"));
 
-console.log("basename of functions directory", path.basename(functionsFolder))
+console.log("Basename of functions directory:", path.basename(functionsFolder));

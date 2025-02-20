@@ -1,7 +1,7 @@
 {
   "name": "n230",
   "version": "0.1.0",
-  "bin":{
+  "bin": {
     "create-tyapp": "./index.js"
   },
   "files": [
@@ -15,11 +15,14 @@
     "fun": "node functions",
     "cont": "node continue.js",
     "fs": "node fs",
-    "path":"node path",
+    "path": "node path",
     "test": "set TEST=1 && node ./"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "n230": "^1.0.0"
+  }
 }
