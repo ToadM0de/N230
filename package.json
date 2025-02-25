@@ -16,13 +16,19 @@
     "cont": "node continue.js",
     "fs": "node fs",
     "path": "node path",
-    "test": "set TEST=1 && node ./"
+    "test": "set TEST=1 && node ./",
+    "dev": "set PORT=3008 && nodemon server.js"
+  
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "jspdf": "^3.0.0",
     "n230": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
